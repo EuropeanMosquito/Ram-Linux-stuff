@@ -12,3 +12,5 @@ PS1='[\u@\h \W]\$ '
 cdls() { builtin cd "$@" && ls -a; }
 
 ydw() { yt-dlp "$@" -f mp4; }
+
+cls() { clear; }
